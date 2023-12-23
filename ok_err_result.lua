@@ -1,3 +1,4 @@
+--> https://luau-lang.org/typecheck
 type Ok<T> = { type: "ok", value: T }
 type Err<T> = { type: "err", value: T }
 type Result<T, E> = Ok<T> | Err<E>
